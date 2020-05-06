@@ -1,47 +1,87 @@
 <html>
+<script>
+  $("#printable").hide();
+  $("#text-form").click(function print(e) {
+    e.preventDefault();
+    $("#text-form").hide();
+    $(".printable").removeClass("hidden");
+  });
+</script>
 
 <head>
   <title>Menu Creator</title>
-  <script src="./node_modules/dom-to-image/dist/dom-to-image.min.js"> </script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link href="./menu.css" rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- <form id="text-form" class="">
+    <textarea name="" id="text-input" cols="30" rows="10"></textarea>
+    <button type="submit">Print</button>
+  </form> -->
   <div id="printable" class="wrapper">
+    <div class="header">
+      <div class="header-label"> <span class="header-title">Don Juan</span></div>
+    </div>
     <div class="inner">
-      <div class="card one">
-        <span class="day-text">Martes</span>
-        <div class="divider-1"></div>
-        <span class="menu-type-h">Saludable</span>
-        <span class="menu-item-h">Pure de papona bien rico</span>
-        <span class="menu-type-n">Diario</span>
-        <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+      <div>
+        <div class="desert desert-1">
+          <span class="includes">Incluye</span>
+          <span class="desert-text">Flan con Dulce de Leche</span>
+        </div>
+        <div class="card one">
+          <span class="day-text">Martes</span>
+          <div class="divider-1"></div>
+          <span class="menu-type-h">Saludable</span>
+          <span class="menu-item-h">Pure de papona bien rico </span>
+          <span class="menu-type-n">Diario</span>
+          <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+        </div>
       </div>
-      <div class="card two">
-        <span class="day-text">Miercoles</span>
-        <div class="divider-2"></div>
-        <span class="menu-type-h">Saludable</span>
-        <span class="menu-item-h">Pure de papona bien rico</span>
-        <span class="menu-type-n">Diario</span>
-        <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+      <div>
+        <div class="desert desert-2">
+          <span class="includes">Incluye</span>
+          <span class="desert-text">Flan con Dulce de Leche</span>
+        </div>
+        <div class="card two">
+          <span class="day-text">Miercoles</span>
+          <div class="divider-2"></div>
+          <span class="menu-type-h">Saludable</span>
+          <span class="menu-item-h">Pure de papona bien rico</span>
+          <span class="menu-type-n">Diario</span>
+          <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+        </div>
       </div>
-      <div class="card one">
-        <span class="day-text">Jueves</span>
-        <div class="divider-1"></div>
-        <span class="menu-type-h">Saludable</span>
-        <span class="menu-item-h">Pure de papona bien rico</span>
-        <span class="menu-type-n">Diario</span>
-        <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+      <div>
+        <div class="desert desert-3">
+          <span class="includes">Incluye</span>
+          <span class="desert-text">Flan con Dulce de Leche</span>
+        </div>
+        <div class="card one">
+          <span class="day-text">Jueves</span>
+          <div class="divider-1"></div>
+          <span class="menu-type-h">Saludable</span>
+          <span class="menu-item-h">Pure de papona bien rico </span>
+          <span class="menu-type-n">Diario</span>
+          <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+        </div>
       </div>
-      <div class="card two">
-        <span class="day-text">Viernes</span>
-        <div class="divider-2"></div>
-        <span class="menu-type-h">Saludable</span>
-        <span class="menu-item-h">Pure de papona bien rico</span>
-        <span class="menu-type-n">Diario</span>
-        <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+      <div>
+        <div class="desert desert-4">
+          <span class="includes">Incluye</span>
+          <span class="desert-text">Flan con Dulce de Leche</span>
+        </div>
+        <div class="card two">
+          <span class="day-text">Viernes</span>
+          <div class="divider-2"></div>
+          <span class="menu-type-h">Saludable</span>
+          <span class="menu-item-h">Pure de papona bien rico</span>
+          <span class="menu-type-n">Diario</span>
+          <span class="menu-item-n"> Una rica milanfrita con limnon exprimidos</span>
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -50,10 +90,10 @@
         <span class="precio">$200</span>
       </div>
       <div>
-        <span class="telefono-t">Contacto:</span> 
+        <span class="telefono-t">Contacto:</span>
         <span class="telefono">099435546</span> </div>
-      </div>
-  
+    </div>
+
   </div>
 </body>
 

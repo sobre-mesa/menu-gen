@@ -1,74 +1,20 @@
 .wrapper {
   font-family: 'Open Sans', sans-serif;
   background-image: url('./wheat.png');
+  /* height: 100%;
+  width: 100%; */
   height:1000px; 
   width: 720px;
 }
 
-.desert-1{
-  background-color: #be675a;
-  color:#ffc987;
-  top: 100;
-  left: 100;
-}
 
-.includes{
-  grid-row: 1;
-  grid-column: 2;
-  padding-top: 6;
-  padding-left: 10;
-  padding-right: 10;;
-}
-
-.desert-text{
-  grid-row: 2;
-  grid-column: 2;
-  font-size: 14;
-}
-
-.desert-2{
-  background-color: #ffc987;
-  color:#be675a;
-  top: 310;
-}
-
-.desert-3{
-  background-color: #be675a;
-  color:#ffc987;
-  top: 520;
-  left: 100;
-}
-
-.desert-4{
-  background-color: #ffc987;
-  color:#be675a;
-  top: 730;
-  left: 100;
-}
-
-
-.desert{
-  padding: 10;
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;
-  z-index: 5;
-  display: flex;
-  position: absolute;
-  box-shadow: 1px 1px 3px 0px black;
-  left: 100;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 .inner {
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 5%;
+  grid-row-gap: 10%;
   height: 80%;
-  padding-top: 12%
+  padding-top: 35%;
 }
 
 .card {
@@ -154,42 +100,12 @@
 .footer{
   padding-top: 4px;
   position:relative;
-  bottom: -25;
+  bottom: -50;
   height: 30px;
   background-color: #ffc987;
   width: 100%;
   color: #be675a;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  box-shadow: 0px 3px 10px 0px black;
   font-size: 20px;
 }
-
-
-.header{
-  padding-top: 4px;
-  position:relative;
-  top: 25;
-  height: 30px;
-  background-color: #ffc987;
-  box-shadow: 0px 3px 10px 0px black;
-  width: 100%;
-  color: #be675a;
-}
-
-.header-label{
-margin-left: auto;
-margin-right: auto;
-  margin-top: -5;
-  height: 50px;
-  background-color: #be675a;
-  width: 50%;
-  color:#ffc987;
-  font-size: 35px;
-  border-radius: 0px 0px 50px 50px;
-  box-shadow: 0px 3px 0px 0px black;
-  text-align: center;
-  padding-top: 20px;
-}
-
-
