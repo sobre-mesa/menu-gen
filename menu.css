@@ -1,0 +1,110 @@
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('./wheat.png');
+  height: 100%;
+  width: 100%;
+  /* height:1280px; 
+  width: 720px; */
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10%;
+  height: 80%;
+  padding-top: 15%
+}
+
+.card {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  display: grid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.day{
+  width: 100%;
+  text-align: center;
+}
+
+.day-text{
+  font-weight: 500;
+  font-size: 30;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  line-height: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-item-h{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15;
+}
+
+.menu-item-n{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15;
+}
+.menu-type-h{
+  font-size: 20;
+  font-weight: bolder;
+}
+
+.menu-type-n{
+  font-size: 20;
+  font-weight: 300;
+}
+
+.divider-1{
+  width:100%;
+  height: 1px;
+  margin: 0;
+  background-color: #be675a;
+}
+.divider-2{
+  width:100%;
+  height: 1px;
+  margin: 0;
+  background-color: #ffc987;
+}
+
+.one {
+  box-shadow: 3px 3px 10px 0px black;
+  background-color: #ffc987;
+  color: #be675a;
+}
+
+.two {
+  color:#ffc987;
+  box-shadow: 3px 3px 10px 4px black;
+  background-color: #be675a;
+}
+
+.precio-t{
+  padding-left: 50%;
+}
+.telefono{
+  font-family: 'Montserrat', sans-serif;
+}
+.precio{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  padding-top: 12px;
+  position:relative;
+  bottom: -70;
+  height: 38px;
+  background-color: #ffc987;
+  width: 100%;
+  color: #be675a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+}
