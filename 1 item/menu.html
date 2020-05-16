@@ -1,0 +1,49 @@
+<html>
+<script>
+  $("#printable").hide();
+  $("#text-form").click(function print(e) {
+    e.preventDefault();
+    $("#text-form").hide();
+    $(".printable").removeClass("hidden");
+  });
+</script>
+
+<head>
+  <title>Menu Creator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="./menu.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="printable" class="wrapper">
+    <div class="header">
+      <div class="header-label"> <span class="header-title">Don Juan</span></div>
+    </div>
+    <div class="header-label-day"> <span class="header-day-title">Sabado de Noche</span></div>
+    <div class="inner">
+      <div class="card two">
+        <span class="day-text">Sandwich gourmet de pollo o carne</span>
+        <span class="day-text">y papas a la suiza para dos con boniatos fritos</span>
+        <span class="day-text-2">Con cerveza de regalo!</span>
+        <span class="menu-item-h">(Ponele: Lechuga, tomate, zanahoria con mayonesa, queso, Lomito, Rucula, huevo frito con maiz, cebolla caramelizada, mostaza)</span>
+      </div>
+      <div class="desert delivery-tag">
+        <span class="delivery-text">¡Te lo llevamos!</span>
+      </div>
+      <div class="footer">
+
+        <div>
+          <span class="precio-t">Precio: </span>
+          <span class="precio">$550</span>
+        </div>
+        <div>
+          <span class="telefono-t">Contacto:</span>
+          <span class="telefono">099174865 / 45545099</span> </div>
+      </div>
+
+    </div>
+</body>
+
+</html>

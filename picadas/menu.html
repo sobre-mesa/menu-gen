@@ -1,0 +1,60 @@
+<html>
+<script>
+  $("#printable").hide();
+  $("#text-form").click(function print(e) {
+    e.preventDefault();
+    $("#text-form").hide();
+    $(".printable").removeClass("hidden");
+  });
+</script>
+
+<head>
+  <title>Menu Creator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="./menu.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- <form id="text-form" class="">
+    <textarea name="" id="text-input" cols="30" rows="10"></textarea>
+    <button type="submit">Print</button>
+  </form> -->
+  <div id="printable" class="wrapper">
+    <div class="header">
+      <div class="header-label"> <span class="header-title">Don Juan</span></div>
+    </div>
+    <div class="header-label-day"> <span class="header-day-title">Viernes de picadas</span></div>
+    <div class="inner">
+      <div class="card one">
+        <span class="day-text">Picada completa </span>
+        <span class="day-text">de fiambres y quesos </span>
+      </div>
+      <div class="card two">
+        <span class="day-text">Picada de aros de calamar </span>
+        <span class="day-text">con rusticas cuatro quesos </span>
+      </div>
+      <div class="card one">
+        <span class="day-text">Picada arrolladitos primavera </span>
+        <span class="day-text">con rusticas encebolladas</span>
+      </div>
+      <div class="desert delivery-tag">
+        <span class="delivery-text">¡Te lo llevamos!</span>
+      </div>
+      <div class="footer">
+
+        <div>
+          <span class="precio-t">Precio: </span>
+          <span class="precio">$500</span>
+        </div>
+        <div>
+          <span class="telefono-t">Contacto:</span>
+          <span class="telefono">099174865 / 45545099</span> </div>
+      </div>
+
+    </div>
+</body>
+
+</html>

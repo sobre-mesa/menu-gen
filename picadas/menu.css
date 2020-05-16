@@ -1,0 +1,164 @@
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('./wheat.png');
+  height:1000px; 
+  width: 720px;
+}
+
+.desert-1{
+  background-color: #be675a;
+  color:#ffc987;
+  top: 100;
+  left: 100;
+}
+
+.desert-text{
+  padding-top: 6px;
+display: block;
+}
+
+
+.delivery-text{
+  margin-bottom: -20px;
+  grid-row: 2;
+  grid-column: 2;
+}
+.delivery-tag{
+  background-color: #be675a;
+  color:#ffc987;
+  top: 880;
+  left: 30;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+
+.desert{
+  padding: 10;
+  height: 75px;
+  width: 75px;
+  border-radius: 100px;
+  z-index: 5;
+  position: absolute;
+  box-shadow: 1px 1px 3px 0px black;
+  text-align: center;
+}
+.inner {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 15%;
+  height: 75%;
+  padding-top: 10%
+}
+
+.card {
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  display: grid;
+  padding-top: 30px;
+  padding-bottom: 12px;
+}
+
+.day{
+  width: 100%;
+  text-align: center;
+}
+
+.day-text{
+  font-weight: 500;
+  font-size: 25;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  line-height: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.one {
+  box-shadow: 3px 3px 10px 0px black;
+  background-color: #ffc987;
+  color: #be675a;
+}
+
+.two {
+  color:#ffc987;
+  box-shadow: 3px 3px 10px 4px black;
+  background-color: #be675a;
+}
+
+.precio-t{
+  padding-left: 50%;
+}
+.telefono{
+  font-family: 'Montserrat', sans-serif;
+}
+.precio{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  padding-top: 4px;
+  position:relative;
+  bottom: 14;
+  height: 30px;
+  background-color: #ffc987;
+  width: 100%;
+  color: #be675a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 3px 10px 0px black;
+  font-size: 18px;
+}
+
+
+.header{
+  padding-top: 4px;
+  position:relative;
+  top: 25;
+  height: 30px;
+  background-color: #ffc987;
+  box-shadow: 0px 3px 10px 0px black;
+  width: 100%;
+  color: #be675a;
+}
+
+.header-label{
+margin-left: auto;
+margin-right: auto;
+  margin-top: -5;
+  height: 50px;
+  background-color: #be675a;
+  width: 50%;
+  color:#ffc987;
+  font-size: 35px;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 0px 2px 0px 0px black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header-label-day{
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 30;
+    height: 13px;
+    background-color: #ffc987;
+    width: 37%;
+    color:#be675a;
+    font-size: 18px;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 4px 0px 0px black;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+
+.header-day-title{
+  position: relative;
+  top: -15;
+}
